@@ -1,3 +1,3 @@
 FROM alpine:3.4
 #ENV Container cassandra
-CMD echo "hello job test"
+CMD /bin/bash -c "echo 'It is a cassandra test'"
