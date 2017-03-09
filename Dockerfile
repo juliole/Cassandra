@@ -1,3 +1,3 @@
 FROM ubuntu
 #ENV Container cmts-dhcp
-CMD echo "Hello job test"  
+CMD /bin/bash -c "echo 'It is a cassandra test'"
