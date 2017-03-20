@@ -1,3 +1,3 @@
 FROM ubuntu
-#ENV Container cassandra
-CMD /bin/bash -c "echo 'It is a cassandra test'"
+#ENV Container Cassandra
+CMD /bin/bash -c "while true;do echo 'It is the Cassandra service'; sleep 3600;done"
